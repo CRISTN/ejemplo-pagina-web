@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mukta:wght@200&family=Raleway:ital,wght@1,100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+            .container-fluid
+            {
+                background-color:#2BE990;
+            }
+
+            h1
+            {
+                color:#EFFBF5;
+                text-align:center;
+                padding:3rem;
+                font-family: 'Fjalla One', sans-serif;
+            }
+
+            #image_div
+            {
+                background-color:#E9F4EF;
+                padding:2.5%;
+            }
+            img 
+            {
+                width:55%;
+                height:55%;
+                margin-left:23%;
+                
+            }
+
+            #image_div:hover
+            {
+                background-color:#EEFAF6;
+            }
+
+            main
+            {
+                background-color:#E9F4EF;
+                padding-top:2.5rem;
+                padding-bottom:2.5rem;
+                padding-left:7rem;
+                padding-right:4.5rem;
+            }
+
+            main:hover
+            {
+                background-color:#EEFAF6;
+            }
+
+            p
+            {
+
+                font-size:1.8rem;
+            }
+
+            @media (min-width: 250px)
+            {
+                .display-1
+                {
+                    font-size:3rem;
+                }
+
+                main
+                {
+                    padding-top:1.5rem;
+                    padding-bottom:1rem;
+                    padding-left:2.5rem;
+                    padding-right:2.5rem;
+                }
+
+                p
+                {
+                    font-size:1rem;
+                }
+            }
